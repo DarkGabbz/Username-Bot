@@ -3,7 +3,7 @@ require 'discordrb'
 bot = Discordrb::Bot.new token: 'TOKEN HERE', client_id: 'CLIENT ID HERE'
 
 
-bot.command (:ping) do |event|
+bot.command (:ping, help_available: false) do |event|
   event << 'pong!'
 end
 
