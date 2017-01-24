@@ -14,6 +14,8 @@ bot.command(:game, description: 'DESCRIPTION HERE') do |event, *game|
             event.respond("MESSAGE WHEN IT WORKS, GAME TITLE = `#{game.join(' ')}`")
 end
 
+
+
 bot.command(:ping, help_available: false) do |event|
   event << 'pong!'
 end
