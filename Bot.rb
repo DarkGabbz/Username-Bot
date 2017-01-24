@@ -48,3 +48,9 @@ bot.command(:calafska) do |event|
 end
 
 bot.run
+
+
+
+
+
+#x was here
