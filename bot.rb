@@ -41,6 +41,10 @@ bot.command(:region) do |event|
   event.server.region
 end
 
+bot.command(:info) do |event|
+  event.user.info
+end
+
 #Kingy commands
 
 bot.command(:kys) do |event|
