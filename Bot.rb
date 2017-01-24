@@ -24,7 +24,7 @@ end
 #Kill the bot, BOT OWNER ONLY
 
 bot.command(:exit, help_available: false) do |event|
-  break unless event.user.id == YOUR ID HERE
+  break unless event.user.id == 272738271862325249
   #Doesn't accept other users
   
   bot.send_message(event.channel.id, 'Goodbye!')
