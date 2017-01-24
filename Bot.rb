@@ -1,7 +1,7 @@
 ::RBNACL_LIBSODIUM_GEM_LIB_PATH = "PASTE DLL PATH HERE"
 require 'discordrb'
 
-bot = Discordrb::Bot.new token: 'TOKEN HERE', client_id: 'CLIENT ID HERE', prefix: 'cxd-'
+bot = Discordrb::Commands::CommandBot.new token: 'TOKEN HERE', client_id: 'CLIENT ID HERE', prefix: 'cxd-'
 
 
 bot.command (:ping, help_available: false) do |event|
@@ -9,6 +9,8 @@ bot.command (:ping, help_available: false) do |event|
 end
 
 bot.command (:exit, help_available: false) do |event|
+  break unless event.user.id == YOUR ID HERE
+  
   bot.send_message(event.channel.id, 'Goodbye!')
   exit
 end
