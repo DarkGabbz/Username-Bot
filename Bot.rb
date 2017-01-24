@@ -13,9 +13,18 @@ bot.command (:exit, help_available: false) do |event|
 end
 
 #commands
+#Respond and pm commands
 
 bot.command (:source) do |event|
   event.respond ('https://github.com/Calafska/CX-Bot')
 end
 
-bot.run 
+#Music/Voice commands
+
+#Line of codes here ( music/voice )
+
+#Other commands here
+
+#line of code here ( other commands )
+
+bot.run
