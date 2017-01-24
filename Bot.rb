@@ -2,13 +2,6 @@ require 'discordrb'
 
 bot = Discordrb::Commands::CommandBot.new token: 'TOKEN HERE', client_id: CLIENT ID HERE, prefix: 'cxd-'
 
-
-# <3 - Kingy
-
-
-
-
-
 bot.command(:ping) do |event|
   event << 'pong!'
 end
