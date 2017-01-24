@@ -13,7 +13,7 @@ end
 #Changes what the bot is playing (<3 Kingy)
 
 bot.command(:game, description: 'Changes the game played by the bot. BOT OWNER ONLY') do |event, *game|
-    unless event.user.id == YOUR_ID
+    unless event.user.id == 252202288821567498
            event.respond("You're not the bot owner!")
                 break
               end
