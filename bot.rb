@@ -55,6 +55,10 @@ bot.command(:crash) do |event|
   event.respond 'no u'
 end
 
+bot.command(:lenny) do |event|
+  event.respond '( ͡° ͜ʖ ͡°)'
+end
+
 #Creator commands
 
 bot.command(:xtheman166) do |event|
