@@ -41,6 +41,22 @@ bot.command(:region) do |event|
   event.server.region
 end
 
+bot.command(:kys) do |event|
+  event.respond 'https://www.youtube.com/watch?v=ByC8sRdL-Ro'
+ 
+  # posts a nice song :^)
+end
+ 
+bot.command(:kfc) do |event|
+  event.user.pm('This is KFC, how may we take your order?')
+end
+ 
+bot.command(:crash) do |event|
+  event.respond 'no u'
+ 
+  # posts a nice song :^)
+end
+
 #Creator commands
 
 bot.command(:xtheman166) do |event|
