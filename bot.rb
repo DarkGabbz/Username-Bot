@@ -1,6 +1,6 @@
 require 'discordrb'
 
-bot = Discordrb::Commands::CommandBot.new token: 'TOKEN HERE', client_id: CLIENT ID HERE, prefix: '69'
+bot = Discordrb::Commands::CommandBot.new token: 'TOKEN HERE', client_id: CLIENT ID HERE, prefix: '&&'
 
 #Commands
 
