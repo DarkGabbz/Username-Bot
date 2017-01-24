@@ -51,6 +51,10 @@ bot.command(:Kingy34) do |event|
   event.respond ('https://github.com/Kingy34')
 end
 
+bot.command(:DarkGabbz) do |event|
+  event.respond ('https://github.com/DarkGabbz')
+end
+
 bot.run
 
 
