@@ -1,4 +1,4 @@
-# CXD-Bot
+# username-Bot
 
 A Discord bot made by xtheman166 , DarkGabbz , TheKingy34 and Calafska.
 
