@@ -1,6 +1,6 @@
 # CXD-Bot
 
-A Discord Bot created by Calafska,xtheman166 and DarkGabbz.
+A Discord bot made by xtheman166 , DarkGabbz and Calafska.
 
 # Features:
 
