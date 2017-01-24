@@ -1,3 +1,4 @@
+::RBNACL_LIBSODIUM_GEM_LIB_PATH = "PASTE DLL PATH HERE"
 require 'discordrb'
 
 bot = Discordrb::Bot.new token: 'TOKEN HERE', client_id: 'CLIENT ID HERE'
