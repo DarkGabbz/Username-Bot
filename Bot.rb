@@ -16,7 +16,7 @@ end
 #Respond and pm commands
 
 bot.command (:source) do |event|
-  event.respond ('https://github.com/Calafska/CX-Bot')
+  event.respond ('https://github.com/Calafska/CXD-Bot')
 end
 
 #Music/Voice commands
