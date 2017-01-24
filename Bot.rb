@@ -5,6 +5,14 @@ bot = Discordrb::Commands::CommandBot.new token: 'TOKEN HERE', client_id: CLIENT
 
 # <3 - Kingy
 
+
+
+
+
+bot.command(:ping, help_available: false) do |event|
+  event << 'pong!'
+end
+
 bot.command(:game, description: 'DESCRIPTION HERE') do |event, *game|
     unless event.user.id == YOUR_ID
            event.respond("TEXT FOR NOT MATCHING ID HERE")
@@ -12,12 +20,6 @@ bot.command(:game, description: 'DESCRIPTION HERE') do |event, *game|
               end
             event.bot.game = game.join(' ')
             event.respond("MESSAGE WHEN IT WORKS, GAME TITLE = `#{game.join(' ')}`")
-end
-
-
-
-bot.command(:ping, help_available: false) do |event|
-  event << 'pong!'
 end
 
 bot.command(:exit, help_available: false) do |event|
