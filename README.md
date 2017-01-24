@@ -10,4 +10,4 @@ Soon™
 
 # How to use:
 
-Insert the requirements from the first lines , then run the ruby script.
+Install the requirements from the first lines , then run the ruby script.
