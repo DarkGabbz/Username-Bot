@@ -55,7 +55,7 @@ bot.command(:kingy) do |event|
   event.respond ('https://github.com/Kingy34')
 end
 
-bot.command(:darkGabbz) do |event|
+bot.command(:DarkGabbz) do |event|
   event.respond ('https://github.com/DarkGabbz')
 end
 
