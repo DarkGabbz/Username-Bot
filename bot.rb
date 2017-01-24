@@ -45,9 +45,6 @@ bot.command(:info) do |event|
   event.user.info
 end
 
-bot.command(:triggeredkingy) do |event|
-  event.respond ('http://i.imgur.com/qhtbUl8.png')
-end
 
 
 #Kingy commands
