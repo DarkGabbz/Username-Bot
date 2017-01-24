@@ -51,12 +51,16 @@ bot.command(:calafska) do |event|
   event.respond ('https://github.com/Calafska')
 end
 
-bot.command(:Kingy) do |event|
+bot.command(:kingy) do |event|
   event.respond ('https://github.com/Kingy34')
 end
 
-bot.command(:DarkGabbz) do |event|
+bot.command(:darkGabbz) do |event|
   event.respond ('https://github.com/DarkGabbz')
+end
+
+bot.command(:devteam) do |event|
+  event.respond ('Kingy , DarkGabzz , Calafska and xtheman166 = the best dev team ever')
 end
 
 bot.run
