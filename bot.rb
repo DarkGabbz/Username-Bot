@@ -13,7 +13,7 @@ end
 #Changes what the bot is playing (<3 Kingy)
 
 bot.command(:game, description: 'Changes the game played by the bot. BOT OWNER ONLY') do |event, *game|
-    unless event.user.id == 252202288821567498
+    unless event.user.id == 252202288821567498 #Change this to your ID
            event.respond("You're not the bot owner!")
                 break
               end
@@ -24,7 +24,7 @@ end
 #Kill the bot, BOT OWNER ONLY
 
 bot.command(:exit, help_available: false) do |event|
-  break unless event.user.id == 272738271862325249
+  break unless event.user.id == 272738271862325249 #Change this to your ID
   #Doesn't accept other users
   
   bot.send_message(event.channel.id, 'Goodbye!')
