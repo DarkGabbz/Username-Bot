@@ -7,6 +7,15 @@ bot.command(:ping) do |event|
   event << 'pong!'
 end
 
+bot.command(:game, description: 'DESCRIPTION HERE') do |event, *game|
+    unless event.user.id == YOUR_ID
+           event.respond("TEXT FOR NOT MATCHING ID HERE")
+                break
+              end
+            event.bot.game = game.join(' ')
+            event.respond("MESSAGE WHEN IT WORKS, GAME TITLE = `#{game.join(' ')}`")
+end
+
 bot.command(:exit, help_available: false) do |event|
   break unless event.user.id == YOUR ID HERE
 
