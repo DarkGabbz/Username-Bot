@@ -1,6 +1,6 @@
 # Username-Bot
 
-A Discord bot made by xtheman166 , DarkGabbz , TheKingy34 and Calafska.
+A Discord bot made by xtheman166 and Calafska.
 
 Written in Ruby.
 
