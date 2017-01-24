@@ -25,6 +25,24 @@ bot.command(:xtheman166) do |event|
   event.respond ('https://github.com/Xtheman166')
 end
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # <3 - Kingy
 
 bot.command(:game, description: 'DESCRIPTION HERE') do |event, *game|
