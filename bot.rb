@@ -56,7 +56,7 @@ bot.command(:kfc) do |event|
 end
  
 bot.command(:crash) do |event|
-  event.respond 'no u'
+  event.respond ('no u')
 end
 
 bot.command(:lenny) do |event|
