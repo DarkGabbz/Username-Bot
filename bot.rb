@@ -74,7 +74,7 @@ bot.command(:kingy) do |event|
 end
 
 bot.command(:devteam) do |event|
-  event.respond ('Kingy , DarkGabbz , Calafska and xtheman166 = the best dev team ever')
+  event.respond ('Kingy , Calafska and xtheman166 = the best dev team ever')
 end
 
 bot.run
