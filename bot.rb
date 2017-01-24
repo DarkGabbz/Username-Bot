@@ -45,26 +45,6 @@ bot.command(:info) do |event|
   event.user.info
 end
 
-
-
-#Kingy commands
-
-bot.command(:kys) do |event|
-  event.respond ('https://www.youtube.com/watch?v=ByC8sRdL-Ro')
-end
- 
-bot.command(:kfc) do |event|
-  event.user.pm ('This is KFC, how may we take your order?')
-end
- 
-bot.command(:crash) do |event|
-  event.respond ('no u')
-end
-
-bot.command(:lenny) do |event|
-  event.respond '( ͡° ͜ʖ ͡°)'
-end
-
 #Music commands
 
 bot.command(:connect) do |event|
@@ -90,11 +70,7 @@ bot.command(:calafska) do |event|
 end
 
 bot.command(:kingy) do |event|
-  event.respond ('https://github.com/Kingy34')
-end
-
-bot.command(:DarkGabbz) do |event|
-  event.respond ('https://github.com/DarkGabbz')
+  event.respond ('thanks and Im sorry')
 end
 
 bot.command(:devteam) do |event|
