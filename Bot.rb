@@ -9,7 +9,7 @@ bot = Discordrb::Commands::CommandBot.new token: 'TOKEN HERE', client_id: CLIENT
 
 
 
-bot.command(:ping, help_available: false) do |event|
+bot.command(:ping) do |event|
   event << 'pong!'
 end
 
