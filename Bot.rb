@@ -25,4 +25,8 @@ bot.command(:xtheman166) do |event|
   event.respond ('https://github.com/Xtheman166')
 end
 
+bot.command(:calafska) do |event|
+  event.respond ('https://github.com/Calafska')
+end
+
 bot.run
