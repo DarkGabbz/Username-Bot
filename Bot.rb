@@ -7,13 +7,13 @@ bot.command(:ping) do |event|
   event << 'pong!'
 end
 
-bot.command(:game, description: 'DESCRIPTION HERE') do |event, *game|
+bot.command(:game, description: 'Changes the game played by the bot. BOT OWNER ONLY') do |event, *game|
     unless event.user.id == YOUR_ID
-           event.respond("TEXT FOR NOT MATCHING ID HERE")
+           event.respond("You're not the bot owner!")
                 break
               end
             event.bot.game = game.join(' ')
-            event.respond("MESSAGE WHEN IT WORKS, GAME TITLE = `#{game.join(' ')}`")
+            event.respond("Game set to `#{game.join(' ')}`")
 end
 
 bot.command(:exit, help_available: false) do |event|
