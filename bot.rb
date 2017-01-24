@@ -63,6 +63,20 @@ bot.command(:lenny) do |event|
   event.respond '( ͡° ͜ʖ ͡°)'
 end
 
+#Music commands
+
+bot.command(:connect) do |event|
+  channel = event.user.voice_channel
+  next "Join a channel first please" unless channel
+  bot.voice_connect(channel)
+  "Ok, I'm in #{channel.name}"
+end
+
+voice_bot = event.voice
+  voice_bot.play_file('PATH')
+  bot.voice_disconnect(channel)
+end
+  
 #Creator commands
 
 bot.command(:xtheman166) do |event|
