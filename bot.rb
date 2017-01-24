@@ -37,6 +37,10 @@ bot.command(:source) do |event|
   event.respond ('https://github.com/Calafska/Username-Bot')
 end
 
+bot.command(:region) do |event|
+  event.server.region
+end
+
 #Creator commands
 
 bot.command(:xtheman166) do |event|
