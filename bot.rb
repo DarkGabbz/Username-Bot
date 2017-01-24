@@ -60,7 +60,7 @@ bot.command(:crash) do |event|
 end
 
 bot.command(:lenny) do |event|
-  event.respond '( ͡° ͜ʖ ͡°)'
+  event.respond '( ͡° ͜ʖ ͡°) or :Lenny:'
 end
 
 #Creator commands
