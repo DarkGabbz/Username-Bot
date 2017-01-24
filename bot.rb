@@ -34,7 +34,7 @@ end
 #Respond and pm commands
 
 bot.command(:source) do |event|
-  event.respond ('https://github.com/Calafska/CXD-Bot')
+  event.respond ('https://github.com/Calafska/Username-Bot')
 end
 
 #Creator commands
