@@ -47,7 +47,7 @@ bot.command(:calafska) do |event|
   event.respond ('https://github.com/Calafska')
 end
 
-bot.command(:Kingy34) do |event|
+bot.command(:Kingy) do |event|
   event.respond ('https://github.com/Kingy34')
 end
 
