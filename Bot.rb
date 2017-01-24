@@ -20,6 +20,10 @@ bot.command (:source) do |event|
   event.respond ('https://github.com/Calafska/CXD-Bot')
 end
 
+bot.command (:xtheman166) do |event|
+  event.respond ('https://github.com/Xtheman166')
+end
+
 #Music/Voice commands
 
 #Line of codes here ( music/voice )
