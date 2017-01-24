@@ -1,6 +1,7 @@
 # CXD-Bot
 
 A Discord bot made by xtheman166 , DarkGabbz and Calafska.
+
 Written in Ruby.
 
 # Features:
