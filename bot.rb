@@ -45,25 +45,7 @@ bot.command(:info) do |event|
   event.user.info
 end
 
-
-
-#Kingy commands
-
-bot.command(:kys) do |event|
-  event.respond ('https://www.youtube.com/watch?v=ByC8sRdL-Ro')
-end
- 
-bot.command(:kfc) do |event|
-  event.user.pm ('This is KFC, how may we take your order?')
-end
- 
-bot.command(:crash) do |event|
-  event.respond ('no u')
-end
-
-bot.command(:lenny) do |event|
-  event.respond '( ͡° ͜ʖ ͡°)'
-end
+bot.command(:google) do |event| #Working on this , I have to break tho sorry 
 
 #Music commands
 
@@ -93,20 +75,22 @@ bot.command(:kingy) do |event|
   event.respond ('https://github.com/Kingy34')
 end
 
-bot.command(:DarkGabbz) do |event|
+bot.command(:darkgabbz) do |event|
   event.respond ('https://github.com/DarkGabbz')
 end
 
 bot.command(:devteam) do |event|
-  event.respond ('Kingy , Calafska and xtheman166 = the best dev team ever')
+  event.respond ('Kingy , DarkGabbz , Calafska and xtheman166')
+end
+
+#Fun commands
+
+bot.command(:crawling) do |event|
+  event.respond ('https://youtu.be/kKKhQw5dy4M')
+end
+
+bot.command(:creamy) do |event|
+  event.respond ('https://youtu.be/F5snogK4rZg')
 end
 
 bot.run
-
-
-
-
-
-#x was here again
-#c was here too
-#coded by the best team of devs <3
